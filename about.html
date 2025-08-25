@@ -7,19 +7,41 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" class="active">About Me</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <section>
-    <h1>About Me</h1>
-    <p>A brief introduction about myself, my background, skills, and passions.</p>
-    <!-- Students can add more personal details here -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>About Me</h1>
+        <h2>Personal Background & Education</h2>
+        <p>I am a passionate web developer with a background in Computer Science. I graduated from Example University, where I developed a strong foundation in programming and problem-solving.</p>
+        <h2>Skills & Technologies</h2>
+        <ul>
+          <li><strong>Frontend:</strong> HTML, CSS, JavaScript, <span style="color:#ff9800;font-weight:bold;">React (TypeScript)</span></li>
+          <li><strong>Backend:</strong> <span style="color:#ff9800;font-weight:bold;">Django</span>, Flask, Node.js</li>
+          <li><strong>Data Science:</strong> Python (Pandas, NumPy), Machine Learning (scikit-learn, Tensorflow, Keras)</li>
+          <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+        </ul>
+        <h2>Hobbies & Career Goals</h2>
+        <p>
+          Outside of coding, I enjoy reading, jogging, gaming, and exploring new technologies. 
+          I am currently exploring Data Science and Cybersecurity as potential career choices, 
+          looking to contribute to impactful projects that make a difference.
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile-photo.jpeg" alt="Profile photo of the portfolio owner" class="profile-img">
+      </div>
+    </div>
   </section>
 
 </body>
