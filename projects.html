@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projects - My Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="projects.html" class="active">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
-  <section>
-    <h1>Projects</h1>
-    <p>List of projects with descriptions. Students can add/edit/remove project entries here.</p>
-    <ul>
-      <li>Project 1 - Description</li>
-      <li>Project 2 - Description</li>
-      <li>Project 3 - Description</li>
-    </ul>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Projects</h1>
+        <ul class="projects-list">
+          <li>
+            <strong>Portfolio Website</strong> A personal website to showcase my skills, projects, and contact
+            information. Built with HTML, CSS, and JavaScript.
+          </li>
+          <li>
+            <strong>African Culinary Chatbot</strong> A simple RAG chatbot for exploring African cuisine.
+            Built with Python, using LangChain and Streamlit.
+          </li>
+          <li>
+            <strong>Budgetron</strong> A budgeting tool that helps users manage their finances effectively.
+            Built with React and Flask.
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 
 </body>
+
 </html>
